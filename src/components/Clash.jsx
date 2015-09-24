@@ -12,9 +12,6 @@ var deepSetState = require('../mixins/deepSetState.js');
 
 var ClashJS = require('../clashjs/ClashCore.js');
 
-var playerObjects = require('../Players.js');
-var playerArray = _.shuffle(_.map(playerObjects, el => el));
-
 var sudeenDeathCount = 0;
 var killsStack = [];
 
@@ -24,6 +21,8 @@ var Clash = React.createClass({
   ],
 
   getInitialState() {
+    var playerObjects = this.props.players;
+    var playerArray = _.shuffle(_.map(playerObjects, el => el));
     this.ClashJS = new ClashJS(playerArray, {}, this.handleEvent);
     return {
       clashjs: this.ClashJS.getState(),
