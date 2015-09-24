@@ -1,12 +1,8 @@
 module.exports = {
-  // javierbyte: require('./players/javierbyte.js'),
-  codingpains: require('./players/codingpains.js'),
-  manuelmhtr: require('./players/manuelmhtr.js'),
-  // ericku: require('./players/ericku.js'),
-  // siegfried: require('./players/siegfried.js'),
-  // horror: require('./players/horror.js'),
-  elperron: require('./players/elperron.js'),
-  yuno: require('./players/yuno.js'),
-  xmontoya: require('./players/xmontoya.js'),
-  margeux: require('./players/margeux.js')
+  jagerBot: require('./players/jagerBot.js'),
+  jagerBot2: require('./players/jagerBot2.js'),
+  randomBot: require('./players/randomBot.js'),
+  javierBot2: require('./players/javierBot2.js'),
+  gerbil: require('./players/gerbil.js'),
+  tutleBot: require('./players/turtleBot.js')
 };
