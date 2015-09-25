@@ -1,8 +1,8 @@
-# [ClashJS](http://javierbyte.github.io/clashjs/)
+# [ClashJS](http://mediasuitenz.github.io/clashjs/)
 
-[![](spec_assets/screenshot.jpg)](http://javierbyte.github.io/clashjs/)
+[![](spec_assets/screenshot.jpg)](http://mediasuitenz.github.io/clashjs/)
 
-[Demo Online](http://javierbyte.github.io/clashjs/)
+[Demo Online](http://mediasuitenz.github.io/clashjs/)
 
 This is an experiment. The idea is to create a battle game, where the participants code their AI, and then we make them fight! You can play by adding your own AI to the game!
 
